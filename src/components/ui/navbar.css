@@ -1,0 +1,8 @@
+.navbar{
+    width: 90%;
+    /* height: 10vh; */
+    background-color: #fdf8fa;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 0 4px 5px rgb(0, 0, 0, 0.1);
+    margin: auto;
+}
