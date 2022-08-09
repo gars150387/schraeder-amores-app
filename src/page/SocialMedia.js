@@ -10,7 +10,7 @@ export const SocialMedia = () => {
     >
       <h2>SocialMedia</h2>
       <div>
-        <a target="_blank" href="https://www.instagram.com/amoresconsulting/">
+        <a rel="noopener" target="_blank" href="https://www.instagram.com/amoresconsulting/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -27,6 +27,7 @@ export const SocialMedia = () => {
         {/* <i className="bi bi-instagram" style={{ color: "#ca9fe4" }}></i> |{" "} */}
         <a
           style={{ margin: "0 10px" }}
+          rel="noopener"
           target="_blank"
           href="https://www.linkedin.com/company/schraeder-amores-consulting/"
         >

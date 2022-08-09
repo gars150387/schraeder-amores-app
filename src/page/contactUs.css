@@ -5,4 +5,25 @@
     box-shadow: 0 0 4px 5px rgba(82, 79, 79, 0.075);
     border-radius: 30px;
     background-color: #fdf8fa;
+    display: block;
+}
+
+.contact-form h2 {
+    margin-bottom: 2%;
+}
+
+.row-contact {
+    display: flex;
+    justify-content: space-around;    
+}
+.row-contact label{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form input, textarea {
+    border-radius: 10px;
+    border: solid 1px #a2a4a57a;
+    outline: transparent;
 }

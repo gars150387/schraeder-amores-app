@@ -6,3 +6,12 @@
     box-shadow: 0 0 4px 5px rgb(0, 0, 0, 0.1);
     margin: auto;
 }
+a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-up {
+    display: flex;
+
+}

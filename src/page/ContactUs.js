@@ -63,23 +63,24 @@ export const ContactUs = () => {
 
   return (
     <div>
-      
       <form className="contact-form" ref={formFormat} onSubmit={sendEmail}>
-      <h2>Contact us</h2>
-        <Row className="col-10 m-auto mb-3">
-          <label className="col-md-4">Name</label>
-          <input className="col-md-8" type="text" name="name" />
-          <label className="col-md-4 mt-2">Email</label>
-          <input className="col-md-8 mt-2" type="email" name="email" />
-          <label className="col-md-4 mt-2">Subject</label>
-          <input className="col-md-8 mt-2" type="text" name="subject" />
-          <label className="col-md-4 mt-2">Message</label>
-          <textarea className="col-md-8 mt-2" name="message" />
-          <Col className="col-md-4 mt-3"></Col>
-          <button className="col-md-8 btn btn-success mt-3" type="submit">
-            Send <RiMailSendLine />
-          </button>
-        </Row>
+        <h2>Contact us</h2>
+        <div>
+          <Row className="col-10 m-auto mb-3 row-contact">
+            <label className="col-md-4">Name</label>
+            <input className="col-md-8" type="text" name="name" />
+            <label className="col-md-4 mt-2">Email</label>
+            <input className="col-md-8 mt-2" type="email" name="email" />
+            <label className="col-md-4 mt-2">Subject</label>
+            <input className="col-md-8 mt-2" type="text" name="subject" />
+            <label className="col-md-4 mt-2">Message</label>
+            <textarea className="col-md-8 mt-2" name="message" />
+            <Col className="col-md-4 mt-3"></Col>
+            <button className="col-md-8 btn btn-success mt-3" type="submit">
+              Send <RiMailSendLine />
+            </button>
+          </Row>
+        </div>
       </form>
     </div>
   );
